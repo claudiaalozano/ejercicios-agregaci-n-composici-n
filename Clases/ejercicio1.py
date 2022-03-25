@@ -1,7 +1,6 @@
 import os
 
 class ciudad:
-    seleccion_ciudad = input("Seleccione la ciudad que desea eliminar (L.A/ N.Y)")
     def __init__(self, newyork, angeles):
         self.newyork = newyork
         self.angeles = angeles
@@ -23,12 +22,25 @@ class ciudad:
 
 
 class edificio:
-    def __init__(self , a, b , c):
-        self.a = a
-        self.b = b
+    
+    def __init__(self , ab , c):
+        self.a_b = ab
         self.c = c
-    def set_a(self,newyork):
-        if del(newyork):
-            del(a)
-            
+    def set_ab(self,newyork):
+        if seleccion_ciudad == "N.W":
+            del(ab)
+            print("Con la caída de N.W, se ha destruído el edificio A y el B.")
+    
+    def get_ab(self): 
+        print(set.ab)
 
+    def set_c (self,angeles):
+        if seleccion_ciudad == "L.A" :
+            del(c)
+            print("Con la caída de Los Ángeles, se ha destruido el edificio C.")
+    def get_c (self):
+        print(set.c)
+
+    
+
+seleccion_ciudad = input("Seleccione la ciudad que desea eliminar (L.A/ N.Y): ")

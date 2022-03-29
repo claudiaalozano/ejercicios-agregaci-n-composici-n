@@ -43,11 +43,14 @@ class edificio:
 class personas:
 
     def __init__(self, YooHoo):
-        self.YooHoo = YooHoo
+        self.YooHoo= YooHoo
 
-    def set.YooHoo (self):
-        if seleccion_ciudad == "L.A" or seleccion_ciudad == "N.Y":
+    def set_YooHoo (self, seleccion_ciudad):
+        if seleccion_ciudad == "L.A":
             print("Se han destruido los edificios de la ciudad: " , seleccion_ciudad)
+        else:
+            print("Se han destruido los edificios de la ciudad: " , seleccion_ciudad)
+
     
 
 

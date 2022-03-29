@@ -1,4 +1,4 @@
-class Yin: pass 
+class Yin: pass
 class Yang: 
     def __del__(self): 
         print("Yang destruido") 
@@ -8,10 +8,12 @@ yang = Yang()
 yin.yang = yang 
  
 print(yang) 
->>> <__main__.Yang object at 0x1011da828> 
+
+#esto es main
 print(yang is yin.yang) 
->>> True 
-del(yang) 
+True  
+del(yang)
 print("?") 
->>> ? 
-Yang destruido
+
+
+#Yang destruido

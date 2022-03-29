@@ -20,7 +20,6 @@ class ciudad:
     def get_angeles(self):
         print(set.angeles)
 
-
 class edificio:
     
     def __init__(self , ab , c):
@@ -41,6 +40,15 @@ class edificio:
     def get_c (self):
         print(set.c)
 
+class personas:
+
+    def __init__(self, YooHoo):
+        self.YooHoo = YooHoo
+
+    def set.YooHoo (self):
+        if seleccion_ciudad == "L.A" or seleccion_ciudad == "N.Y":
+            print("Se han destruido los edificios de la ciudad: " , seleccion_ciudad)
     
+
 
 seleccion_ciudad = input("Seleccione la ciudad que desea eliminar (L.A/ N.Y): ")

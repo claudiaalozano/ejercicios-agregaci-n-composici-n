@@ -4,16 +4,16 @@ class Yang:
         print("Yang destruido") 
  
 yin = Yin() 
-yang = Yang() 
-yin.yang = yang 
+yang = Yang()
  
-print(yang) 
 
 #esto es main
-print(yang is yin.yang) 
-True  
+print(yang) 
+
 del(yang)
+
 print("?") 
 
-
 #Yang destruido
+
+#He eliminado la variable ying.yan porque en el print (yang is yin.yang) se está repitiendo lo mismo dos veces, ya que anteriormente se ha puesto "yin.yang = yang" y "print(yang)" 

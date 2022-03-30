@@ -20,7 +20,7 @@ class ciudad:
     def get_angeles(self):
         print(set.angeles)
 
-class edificio:
+class edificio(ciudad):
     
     def __init__(self , ab , c):
         self.a_b = ab
@@ -40,7 +40,7 @@ class edificio:
     def get_c (self):
         print(set.c)
 
-class personas:
+class personas(ciudad):
 
     def __init__(self, YooHoo):
         self.YooHoo= YooHoo

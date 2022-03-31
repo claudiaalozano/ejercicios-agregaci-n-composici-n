@@ -13,6 +13,7 @@ elif ejercicio == "2":
     Yang1 =  Yang
     print(Yang1)
 
-if ejercicio == "3":
-    Cristal1 = 
-    print(Cristal.__subclasses())
+#if ejercicio == "3":
+    #Cristal1 = 
+    #print(Cristal.__subclasses())
+
